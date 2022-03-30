@@ -1,114 +1,114 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CV | Template-2</title>
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>CV | Template-2</title>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+      integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+      integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://kit.fontawesome.com/5f59ca6ad3.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/1.3.2/jspdf.debug.js"></script>
 
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
-    integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
-  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
-    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
-    crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
-    integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
-    crossorigin="anonymous"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
-    integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
-    crossorigin="anonymous"></script>
-  <script src="https://kit.fontawesome.com/5f59ca6ad3.js" crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/1.3.2/jspdf.debug.js"></script>
+    <link rel="stylesheet" type="text/css" href="../global.css" />
+    <link rel="stylesheet" type="text/css" href="./styles.css" />
+  </head>
 
-  <link rel="stylesheet" type="text/css" href="../global.css">
-  <link rel="stylesheet" type="text/css" href="./styles.css">
-</head>
-
-<body>
-  <div class="main-container">
-    <div class="m-4 d-flex justify-content-center">
-      <a href="../" class="btn btn-info mx-2">Home</a>
-      <button id="editCv" class="btn btn-secondary mx-2">Edit</button>
-      <button id="saveCv" class="btn btn-primary mx-2">Save</button>
-      <button id="resetCv" class="btn btn-danger mx-2">Reset</button>
-      <button id="printCv" class="btn btn-success mx-2">Download</button>
-    </div>
-    <div id="cv" class="iitm-cv-container cv-container">
-      <div class="header">
-        <div>
-          <h1><span class="name">Shekar Reddy</span> | <span class="roll">19XY10017</span></h1>
-          <h2 class="campus">Indian Institute of Technology Kharagpur</h2>
-        </div>
-        <div>
-          <img src="../img/logo/kgp-logo.png" />
-        </div>
+  <body>
+    <div class="main-container">
+      <div class="m-4 d-flex justify-content-center">
+        <a href="../" class="btn btn-info mx-2">Home</a>
+        <button id="editCv" class="btn btn-secondary mx-2">Edit</button>
+        <button id="saveCv" class="btn btn-primary mx-2">Save</button>
+        <button id="resetCv" class="btn btn-danger mx-2">Reset</button>
+        <button id="printCv" class="btn btn-success mx-2">Download</button>
       </div>
-      <div class="education">
-        <h1 class="section-heading">
-          Education
-        </h1>
-        <div class="section-body">
-          <table>
-            <tr class="table-header">
-              <th>
-                Program
-              </th>
-              <th>
-                Institution
-              </th>
-              <th>
-                %/CGPA
-              </th>
-              <th>
-                Year
-              </th>
-            </tr>
-            <tr>
-              <td>
-                B.Tech, Computer Science and Engineering
-              </td>
-              <td>
-                Indian Institute of Technology Kharagpur
-              </td>
-              <td>
-                8.92
-              </td>
-              <td>
-                2023
-              </td>
-            </tr>
-            <tr>
-              <td>
-                Class XII, TSBIE
-              </td>
-              <td>
-                Narayana Junior College, Hyderabad
-              </td>
-              <td>
-                98.5
-              </td>
-              <td>
-                2019
-              </td>
-            </tr>
-            <tr>
-              <td>
-                Class X, TSBSE
-              </td>
-              <td>
-                Narayana Concept School, Hyderabad
-              </td>
-              <td>
-                10/10
-              </td>
-              <td>
-                2017
-              </td>
-            </tr>
-          </table>
+      <div id="cv" class="iitm-cv-container cv-container">
+        <div class="header">
+          <div>
+            <h1>
+              <span class="name">AJAY KUMAR MEENA</span> |
+              <span class="roll">18NA30001</span>
+            </h1>
+            <h2 class="campus">Indian Institute of Technology Kharagpur</h2>
+            <!-- <h3 style="font-size: 22px;
+           font-weight: 100;
+           color: #b7bece;">Contact: <a href="mailto:ajaykumarmeena808@gmail.com" target="_blank">Gmail</a>
+           <a href="https://www.linkedin.com/in/akm808-iitkgp/">LinkedIn</a>
+           <a href="https://github.com/Aicirou/">GitHub</a> +919782967441
+          </h3> -->
+            <!-- <h3 class="contact-header" style="color: #b7bece;
+            font-weight: 500;">Contact:</h3> -->
+            <div class="contact-info" 
+            style="color: #0d8fcd;
+            font-weight: 500;">
+                <i class="fab fa-linkedin-in"></i>
+                    <a href="https://www.linkedin.com/in/akm808-iitkgp/" target="_blank">LinkedIn</a> | 
+                    <i class="fab fa-github"></i>
+                    <a href="https://github.com/Aicirou/" target="_blank">GitHub</a> |
+                    <i class="fas fa-envelope"></i>
+                  <a href="mailto:ajaykumarmeena808@gmail.com" target="_blank">Gmail</a>
+              <p class="phone" ><i class="fas fa-phone-alt"></i> +91-9782967441</p>
+            </div>
+          </div>
+          <div>
+            <img src="../img/logo/kgp-logo.png" />
+          </div>
         </div>
-      </div>
-      <div class="achievements">
+        <div class="education">
+          <h1 class="section-heading">Education</h1>
+          <div class="section-body">
+            <table>
+              <tr class="table-header">
+                <th>Program</th>
+                <th>Institution</th>
+                <th>%/CGPA</th>
+                <th>Year</th>
+              </tr>
+              <tr>
+                <td>Ocean Engg. Naval Arch. (M.Tech Dual 5Y)</td>
+                <td>Indian Institute of Technology, Kharagpur</td>
+                <td>6.57</td>
+                <td>2023</td>
+              </tr>
+              <tr>
+                <td>Class XII, BSER</td>
+                <td>Raja Public School, Dausa</td>
+                <td>81.20%</td>
+                <td>2017</td>
+              </tr>
+              <tr>
+                <td>Class X, BSER</td>
+                <td>Govt Sr. Sec. School, Rojwari</td>
+                <td>72.83%</td>
+                <td>2015</td>
+              </tr>
+            </table>
+          </div>
+        </div>
+        <!-- <div class="achievements">
         <h1 class="section-heading">
           Scholastic Achievements
         </h1>
@@ -129,31 +129,78 @@
             </li>
           </ul>
         </div>
-      </div>
-      <div class="projects">
-        <h1 class="section-heading">
-          Projects
-        </h1>
-        <div class="section-body">
-          <ul>
+      </div> -->
+        <div class="pors">
+          <h1 class="section-heading">Internships</h1>
+          <div class="section-body">
+            <ul>
+              <li class="heading">
+                <span>
+                  Problem Curator Intern
+                  <span class="society"> | AlgoZenith</span>
+                </span>
+                <span class="timeline">Dec'21 - Mar'22</span>
+              </li>
+              <li>Created and tested competitive programming problems.</li>
+              <li>
+                Worked on the development of a problem set for the upcoming
+                contest.
+              </li>
+              <li>Worked on the implementation of the 100+ problem sets.</li>
+              <li>Worked on various algorithms and data structures.</li>
+              <li>
+                Skills Developed: C/C++, Data Structures, Algorithms, and VS
+                Code.
+              </li>
+            </ul>
+            <!-- <ul>
             <li class="heading">
               <span>
-                Stock Price Prediction
-                <span class="timeline"></span>
+                Volunteer
+                <span class="society"> | Student Placement Office</span>
               </span>
-              <span class="prof">Prof. Rakesh Kumar</span>
+              <span class="timeline">May'19 - July'20</span>
             </li>
             <li>
-              Developed an android application to facilitate learning of parallel programming and related concepts
+              Managed logistics of shortlisting tests, interviews for the recruiting process.
             </li>
             <li>
-              Well versed in App Development and Video Editing to improve learning experience for users
+              Handled recruitment process of companies like Tower Research, IBM ,Edelweiss etc.
             </li>
-            <li>
-              Link to repository is <a href="#">here</a>
-            </li>
-          </ul>
-          <ul>
+          </ul> -->
+          </div>
+        </div>
+
+        <div class="projects">
+          <h1 class="section-heading">Projects</h1>
+          <div class="section-body">
+            <ul>
+              <li class="heading">
+                <span>
+                  Google Drive Directory Index
+                  <span class="timeline"></span>
+                </span>
+                <span class="prof">Self-Project</span>
+              </li>
+
+              <li>
+                Developed a server-less web application that indexes the
+                contents of a Google Drive directory.
+              </li>
+              <li>
+                Implemented the indexing by Combining the power of Cloudflare
+                Workers & Google Drive API.
+              </li>
+              <li>
+                Link to Repository is
+                <a href="https://github.com/Aicirou/goindex-theme-acrou"
+                  >here</a
+                >
+                and Link to Deploy is
+                <a href="https://chill.iitkgp.workers.dev/">here</a>.
+              </li>
+            </ul>
+            <!-- <ul>
             <li class="heading">
               <span>
                 Building an Efficient Traffic Signal
@@ -201,48 +248,66 @@
             <li>
               Built ALU components,CPU,Memory units,Program Counter and linked them using digital logic
             </li>
-          </ul>
+          </ul> -->
+          </div>
         </div>
-      </div>
-      <div class="courses">
-        <h1 class="section-heading">
-          Course Work
-        </h1>
-        <div class="section-body">
-          <table class="list-table">
-            <tr>
-              <td>Deep Learning</td>
-              <td>Smart sensing for IoT devices</td>
-            </tr>
-            <tr>
-              <td>Operating Systems</td>
-              <td>Artificial Intelligence</td>
-            </tr>
-            <tr>
-              <td>Programming and Data structures</td>
-              <td>Computer Organization and Architecture</td>
-            </tr>
-          </table>
+        <div class="courses">
+          <h1 class="section-heading">Coursework Information</h1>
+          <div class="section-body">
+            <table class="list-table">
+              <tr>
+                <td>Programming &Data Structure (Theory + Lab)</td>
+                <td>Mathematics-I &II</td>
+              </tr>
+              <tr>
+                <td>
+                  Computer Architecture & Organization, Operating Systems, and
+                  Networking
+                </td>
+                <td>Probability and Statistics</td>
+              </tr>
+              <tr>
+                <td>Numerical Solution of Ordinary &PDE</td>
+                <td>Transform Calculus</td>
+              </tr>
+              <tr>
+                <td>CAD-CAM Marine Design &Production (Theory + Lab)</td>
+                <td>Structural Design &Computation Lab</td>
+              </tr>
+              <tr>
+                <td>
+                  MOOCs: Become a C++ Developer (Learning Path) | Python for
+                  Everybody
+                </td>
+              </tr>
+            </table>
+          </div>
         </div>
-      </div>
-      <div class="skills">
-        <h1 class="section-heading">
-          Skills
-        </h1>
-        <div class="section-body">
-          <ul>
-            <li>
-              <strong>Programming Languages: </strong>
-              Python, C++, C, Ocaml, Prolog HDL, RISC-V
-            </li>
-            <li>
-              <strong>Frameworks and Libraries: </strong>
-              Django, Flutter, Android, Numpy, JQuery, Bootstrap
-            </li>
-          </ul>
+        <div class="skills">
+          <h1 class="section-heading">Skills and Expertise</h1>
+          <div class="section-body">
+            <ul>
+              <li>
+                <strong>Programming Languages: </strong>
+                C/C++ | Python | JavaScript | HTML5 | CSS3 | PHP
+              </li>
+              <li>
+                <strong>Development and Libraries: </strong>Bootstrap, React.js,
+                Node.js, MySQLi, AWS
+              </li>
+              <li>
+                <strong>Software &Tools: </strong>
+                Git | AutoCAD | MATLAB | Solidworks | Microsoft
+                Office | Microsoft Azure | Adobe Creative Cloud | VS Code
+              </li>
+              <li>
+                <strong>Platforms(OS): </strong>
+                Linux | Microsoft Windows
+              </li>
+            </ul>
+          </div>
         </div>
-      </div>
-      <div class="pors">
+        <!-- <div class="pors">
         <h1 class="section-heading">
           Positions of Responsibility
         </h1>
@@ -284,23 +349,28 @@
             </li>
           </ul>
         </div>
-      </div>
-      <div class="extra-curricular-activities">
-        <h1 class="section-heading">
-          Extra - Curricular Activities
-        </h1>
-        <div class="section-body">
-          <ul>
-            <li>
-              Part of the Institute Badminton Team 2018-present
-            </li>
-          </ul>
+      </div> -->
+        <div class="extra-curricular-activities">
+          <h1 class="section-heading">Extra Curricular Activity</h1>
+          <div class="section-body">
+            <ul>
+              <li>Ranked 1528 Globally out of 11000+ participants in April Lunch Time 2021, organized by CodeChef.
+              </li>
+              <li>
+                Volunteered in The Annual Technical Meet <strong>Samudra Manthan</strong> (<em>organized by IIT Kharagpur</em>), 2018-19
+              </li>
+              <li>
+                Operated as a member of sponsorship team in <strong>KHOJ</strong> (<em>a treasure hunt event for 1400+ first-year students</em>), 2019-20
+              </li>
+              <li>
+                Bagged <strong>Silver</strong> medal in Inter-Hall Choreography for LBS Hall of Residence, 2019-20
+              </li>
+            </ul>
+          </div>
         </div>
       </div>
     </div>
-  </div>
-  <script type="text/javascript" src="../global.js"></script>
-  <script type="text/javascript" src="./main.js"></script>
-</body>
-
+    <script type="text/javascript" src="../global.js"></script>
+    <script type="text/javascript" src="./main.js"></script>
+  </body>
 </html>
