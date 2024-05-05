@@ -1,20 +1,24 @@
 @import url("https://fonts.googleapis.com/css2?family=Varela+Round&display=swap");
-
+@import url("https://fonts.googleapis.com/css2?family=Jersey+15&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap");
 .iitm-cv-container {
-    display: flex;
-    flex-direction: column;
-    font-family: "Varela Round", sans-serif;
-    padding: 4vw;
-    font-size: 16px;
+  display: flex;
+  flex-direction: column;
+  font-family: "Ubuntu", sans-serif;
+  padding: 4vw;
+  font-size: 16px;
 }
 
 .iitm-cv-container .section-heading {
-    font-size: 24px;
-    font-weight: 600;
-    color: #0d8fcd;
-    border-bottom: 1px solid #0d8fcd;
-    margin: 0;
-    margin-top: 20px;
+  font-size: 24px;
+  font-weight: 600;
+  color: #0d8fcd;
+  border-bottom: 1px solid #0d8fcd;
+  margin: 0;
+  margin-top: 20px;
+}
+
+.iitm-cv-container .education-heading {
+  margin-top: 10px;
 }
 
 /*
@@ -22,18 +26,22 @@ Table Styling Start
 */
 
 .iitm-cv-container table {
-    width: 100%;
+  width: 100%;
+  border-collapse: collapse;
 }
 
 .iitm-cv-container table .table-header {
-    border-bottom: 1px solid #0d8fcd;
+  border-bottom: 1px solid #0d8fcd;
 }
 
 .iitm-cv-container table .table-header th {
-    color: #0d8fcd;
-    font-weight: 100;
-    font-size: 18px;
+  color: #0d8fcd;
+  font-weight: 100;
+  font-size: 18px;
 }
+
+/* .iitm-cv-container table .table-content {
+} */
 
 /*
 Table Styling End
@@ -44,35 +52,39 @@ List Styling Start
 */
 
 .iitm-cv-container ul {
-    list-style-type: circle;
-    list-style-position: outside;
-    margin-bottom: 0;
-}
-
-.iitm-cv-container ul li.heading {
-    font-weight: bold;
-    margin: 0;
-    padding-left: 0;
-}
-
-.iitm-cv-container ul li.heading::marker {
-    content: "";
+  list-style-type: circle;
+  list-style-position: outside;
 }
 
 .iitm-cv-container ul li {
-    margin-left: 8px;
-    padding-left: 5px;
+  margin-left: 8px;
+  padding-left: 5px;
+  margin-right: 48px;
+  margin-bottom: -5px;
 }
 
 .iitm-cv-container ul li::marker,
 .list-table tr td::before {
-    content: "\25cb";
-    color: #0d8fcd;
-    font-size: 16px;
+  content: disc;
+  color: #0d8fcd;
+
+  /* color: black; */
+  font-size: 16px;
+}
+
+.iitm-cv-container ul li.heading {
+  font-weight: bold;
+  /* margin: 0; */
+  padding-left: 0;
+  margin-bottom: 1px;
+}
+
+.iitm-cv-container ul li.heading::marker {
+  content: "";
 }
 
 .list-table tr td::before {
-    margin-right: 5px;
+  margin-right: 5px;
 }
 
 /*
@@ -83,35 +95,38 @@ List Styling End
 Header Section Start
 */
 .iitm-cv-container .header {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 }
 
 .iitm-cv-container .header h1 {
-    font-size: 38px;
-    font-weight: 100;
-    color: #b7bece;
+  font-size: 38px;
+  font-weight: 100;
+  color: #b7bece;
 }
 
 .iitm-cv-container .header .name {
-    font-size: 38px;
-    color: #0d8fcd;
-    font-weight: 600;
+  font-size: 34px;
+  color: #0d8fcd;
+  font-weight: 600;
 }
 
 .iitm-cv-container .header .roll {
-    font-size: 38px;
-    font-weight: 400;
+  font-size: 34px;
+  font-weight: 400;
 }
 
 .iitm-cv-container .header .campus {
-    font-size: 24px;
-    font-weight: 600;
+  font-size: 24px;
+  font-weight: 600;
 }
 
 .iitm-cv-container .header img {
-    width: 150px;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  /* border: 2px solid #0d8fcd; */
 }
 
 /*
@@ -122,25 +137,26 @@ Header Section End
 Projects and POR Sections Start
 */
 
-.iitm-cv-container .projects ul li.heading, .iitm-cv-container .pors ul li.heading {
-    display: flex;
-    justify-content: space-between;
+.iitm-cv-container .projects ul li.heading,
+.iitm-cv-container .pors ul li.heading {
+  display: flex;
+  justify-content: space-between;
 }
 
 .iitm-cv-container .projects ul li.heading span:nth-child(1),
 .iitm-cv-container .pors ul li.heading span:nth-child(1) {
-    display: flex;
+  display: flex;
 }
 
 .iitm-cv-container .projects ul li.heading span:nth-child(1) .timeline,
 .iitm-cv-container .pors ul li.heading span:nth-child(1) .society {
-    font-weight: normal;
-    margin-left: 10px;
+  font-weight: normal;
+  margin-left: 10px;
 }
 
 .iitm-cv-container .projects ul li.heading span:nth-child(2) {
-    font-weight: normal;
-    font-style: italic;
+  font-weight: normal;
+  font-style: italic;
 }
 
 /*
@@ -152,5 +168,67 @@ PORs Section Start
 */
 
 .iitm-cv-container .pors ul li.heading span:nth-child(2) {
-    font-weight: normal;
+  font-weight: normal;
+}
+
+.list-table {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  margin-right: 100px;
+  margin-left: 8px;
+  padding-left: 5px;
+}
+.list-table li {
+  margin-bottom: -5px;
+  list-style-position: inside;
+  list-style-type: none;
+}
+
+.list-table li::marker {
+  margin-left: 8px;
+  padding-left: 5px;
+}
+
+/*
+contact-info Section Start
+*/
+
+.iitm-cv-container .contact-info {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 10px;
+}
+
+/* .iitm-cv-container .contact-info a {
+  text-decoration: none;
+} */
+
+.note {
+  font-size: small;
+}
+
+.link a {
+  color: #0d8fcd;
+  text-decoration: underline;
+}
+
+.link a img {
+  height: 12px;
+  width: 12px;
+  margin-bottom: 6px;
+  cursor: pointer;
+}
+
+.link a img:hover {
+  transform: scale(1.1);
+}
+
+.wrap-row {
+  list-style-type: disc;
+  /* list-style-position: inside; */
 }
