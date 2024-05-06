@@ -59,7 +59,7 @@ List Styling Start
 .iitm-cv-container ul li {
   margin-left: 8px;
   padding-left: 5px;
-  margin-right: 48px;
+  margin-right: 18px;
   margin-bottom: -5px;
 }
 
@@ -120,12 +120,14 @@ Header Section Start
 .iitm-cv-container .header .campus {
   font-size: 24px;
   font-weight: 600;
+  margin-left: 75px;
 }
 
 .iitm-cv-container .header img {
   width: 100px;
   height: 100px;
   border-radius: 50%;
+  object-fit: fill;
   /* border: 2px solid #0d8fcd; */
 }
 
@@ -202,6 +204,7 @@ contact-info Section Start
   justify-content: flex-start;
   align-items: center;
   gap: 10px;
+  margin-left: 79px;
 }
 
 /* .iitm-cv-container .contact-info a {
@@ -226,9 +229,4 @@ contact-info Section Start
 
 .link a img:hover {
   transform: scale(1.1);
-}
-
-.wrap-row {
-  list-style-type: disc;
-  /* list-style-position: inside; */
 }
