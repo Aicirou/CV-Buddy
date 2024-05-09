@@ -1,11 +1,16 @@
 @import url("https://fonts.googleapis.com/css2?family=Varela+Round&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Jersey+15&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Ubuntu", sans-serif;
+  font-size: 17px;
+}
 .iitm-cv-container {
   display: flex;
   flex-direction: column;
-  font-family: "Ubuntu", sans-serif;
   padding: 4vw;
-  font-size: 16px;
 }
 
 .iitm-cv-container .section-heading {
@@ -18,7 +23,7 @@
 }
 
 .iitm-cv-container .education-heading {
-  margin-top: 10px;
+  margin-top: 15px;
 }
 
 /*
@@ -59,7 +64,7 @@ List Styling Start
 .iitm-cv-container ul li {
   margin-left: 8px;
   padding-left: 5px;
-  margin-right: 18px;
+  /* margin-right: 18px; */
   margin-bottom: -5px;
 }
 
@@ -69,14 +74,14 @@ List Styling Start
   color: #0d8fcd;
 
   /* color: black; */
-  font-size: 16px;
+  font-size: 17px;
 }
 
 .iitm-cv-container ul li.heading {
   font-weight: bold;
-  /* margin: 0; */
+  margin: 0;
   padding-left: 0;
-  margin-bottom: 1px;
+  /* margin-bottom: 0px; */
 }
 
 .iitm-cv-container ul li.heading::marker {
@@ -169,6 +174,8 @@ PORs Section Start
 
 .iitm-cv-container .pors ul li.heading span:nth-child(2) {
   font-weight: normal;
+  font-style: italic;
+  /* margin-right: 2px; */
 }
 
 .list-table {
@@ -177,7 +184,7 @@ PORs Section Start
   justify-content: space-between;
   align-items: flex-start;
   flex-wrap: wrap;
-  margin-right: 100px;
+  margin-right: 20px;
   margin-left: 8px;
   padding-left: 5px;
 }
@@ -219,9 +226,10 @@ contact-info Section Start
 }
 
 .link a img {
-  height: 12px;
-  width: 12px;
-  margin-bottom: 6px;
+  height: 9px;
+  width: 9px;
+  margin-bottom: 9px;
+  margin-left: 3px;
   cursor: pointer;
 }
 
