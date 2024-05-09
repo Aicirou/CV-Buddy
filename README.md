@@ -5,14 +5,14 @@
 </p>
 
 <p align="center">
-    <a href="https://praneeth-rdy.github.io/CV-Buddy">
-        <img src="https://img.shields.io/website?down_color=lightgrey&down_message=down&up_color=%231e90ff&up_message=live&url=https%3A%2F%2Fpraneeth-rdy.github.io%2F/CV-Buddy%2F"/>
+    <a href="https://Aicirou.github.io/CV-Buddy">
+        <img src="https://img.shields.io/website?down_color=lightgrey&down_message=down&up_color=%231e90ff&up_message=live&url=https%3A%2F%2Faicirou.github.io%2F/CV-Buddy%2F"/>
     </a>
-    <a href="https://github.com/praneeth-rdy/CV-Buddy/issues">
-      <img alt="Issues" src="https://img.shields.io/github/issues/praneeth-rdy/CV-Buddy?color=0088ff" />
+    <a href="https://github.com/Aicirou/CV-Buddy/issues">
+      <img alt="Issues" src="https://img.shields.io/github/issues/aicirou/CV-Buddy?color=0088ff" />
     </a>
-    <a href="https://github.com/praneeth-rdy/CV-Buddy/pulls">
-      <img alt="GitHub pull requests" src="https://img.shields.io/github/issues-pr/praneeth-rdy/CV-Buddy?color=0088ff" />
+    <a href="https://github.com/Aicirou/CV-Buddy/pulls">
+      <img alt="GitHub pull requests" src="https://img.shields.io/github/issues-pr/aicirou/CV-Buddy?color=0088ff" />
     </a>
 </p>
 
@@ -47,11 +47,9 @@
   </ol>
 </details>
 
-
-
 <!-- ABOUT THE PROJECT -->
-## About The Project
 
+## About The Project
 
 There are many CV builders available on the internet, however, I didn't find one that really suits my needs. I wanted to create a CV builder which is very simple to use and also has some standard templates in it, to start with. One of the most important things is that, this is an opensource project. "For the community and by the community" is what it makes powerful. Even if you aren't a developer, you can contribute to this project by filling out the feedback/suggestion form which is avalable on the home page.
 
@@ -67,29 +65,30 @@ You may also suggest changes by forking this repo and creating a pull request or
 A list of commonly used resources that I find helpful are listed in the acknowledgements.
 
 <!-- GETTING STARTED -->
+
 ## Getting Started
 
 You won't be needing to download or install anything, to get started with this project.
-Just visit [https://praneeth-rdy.github.io/CV-Buddy](https://praneeth-rdy.github.io/CV-Buddy) and play with editor. That's as simple as that!
-
+Just visit [https://Aicirou.github.io/CV-Buddy](https://Aicirou.github.io/CV-Buddy) and play with editor. That's as simple as that!
 
 <!-- USAGE EXAMPLES -->
+
 ## Usage
 
-- Open the website [https://praneeth-rdy.github.io/CV-Buddy](https://praneeth-rdy.github.io/CV-Buddy).
+- Open the website [https://Aicirou.github.io/CV-Buddy](https://Aicirou.github.io/CV-Buddy).
 - You will be displayed multiple CV templates. Select a template you like.
-- Click on edit. Now you can edit the content of the CV directly. 
+- Click on edit. Now you can edit the content of the CV directly.
 - Remove the campus logo, if you are not a kgpian.
 - Click on save, to continue working on it later.
 - Click on reset, to reset the cv to initial template.
-- Click on download, see the preview and save it as a pdf. 
+- Click on download, see the preview and save it as a pdf.
 - Boom!! Your cv is ready to use.
 - Now, share your feedback and experience on the homepage.
 
 <!-- _For more examples, please refer to the [Documentation](https://example.com)_ -->
 
-
 <!-- CONTRIBUTING -->
+
 ## Contributing
 
 Contributions are what make the open source community such an amazing place to be learn, inspire, and create. Any contributions you make are **greatly appreciated**.
@@ -110,23 +109,27 @@ Contributions are what make the open source community such an amazing place to b
 #### Refer to [CONTRIBUTING.md](CONTRIBUTING.md) for other instructions.
 
 <!-- LICENSE -->
+
 ## License
 
 Distributed under the GNU GPL v3.0 License. See `LICENSE` for more information.
 
-
-
 <!-- CONTACT -->
+<!--
 ## Contact
 
-Praneeth Reddy Kolanu - [@praneeth-rdy](https://www.facebook.com/praneeth.reddy.3557440) - praneeth.kolanu.iitkgp@gmail.com
+- Email: [akm808.iitkgp@gmail.com](mailto:akm808.iitkgp@gmail.com)
 
-Project Link: [https://github.com/praneeth-rdy/CV-Buddy](https://github.com/praneeth-rdy/CV-Buddy)
-
+- Project Link: [https://github.com/Aicirou/CV-Buddy](https://github.com/Aicirou/CV-Buddy) -->
 
 <!-- ACKNOWLEDGEMENTS -->
+
 ## Acknowledgements
-* [GitHub Pages](https://pages.github.com)
-* [Font Awesome](https://fontawesome.com)
-* [README Template by othneildrew](https://github.com/othneildrew/Best-README-Template)
-* [Img Shields](https://shields.io)
+
+- [GitHub Pages](https://pages.github.com)
+- [Font Awesome](https://fontawesome.com)
+- [README Template by othneildrew](https://github.com/othneildrew/Best-README-Template)
+- [Img Shields](https://shields.io)
+- [Choose an Open Source License](https://choosealicense.com)
+
+<!-- MARKDOWN LINKS & IMAGES -->
