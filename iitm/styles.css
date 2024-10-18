@@ -19,7 +19,7 @@
   color: #0d8fcd;
   border-bottom: 1px solid #0d8fcd;
   margin: 0;
-  margin-top: 20px;
+  margin-top: 15px;
 }
 
 .iitm-cv-container .education-heading {
@@ -235,4 +235,13 @@ contact-info Section Start
 
 .link a img:hover {
   transform: scale(1.1);
+}
+
+/*objective section*/
+.iitm-cv-container .objective li {
+  /* remove li style*/
+  list-style-type: none;
+}
+.iitm-cv-container .objective {
+  margin-bottom: -5px;
 }
