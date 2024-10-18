@@ -57,7 +57,7 @@ List Styling Start
 */
 
 .iitm-cv-container ul {
-  list-style-type: circle;
+  list-style-type: "-";
   list-style-position: outside;
 }
 
@@ -71,7 +71,7 @@ List Styling Start
 .iitm-cv-container ul li::marker,
 .list-table tr td::before {
   content: disc;
-  color: #0d8fcd;
+  /* color: #0d8fcd; */
 
   /* color: black; */
   font-size: 17px;
